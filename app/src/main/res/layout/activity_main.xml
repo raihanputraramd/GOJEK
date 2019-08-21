@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gojek"
+        android:layout_gravity="center_horizontal"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_gomart"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_goride"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:id="@+id/button_goFood"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_gofood"
+            android:layout_margin="10dp"
+            />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_gosend"
+            android:layout_margin="10dp"/>
+    </GridLayout>
+
+
+</LinearLayout>
